@@ -1,2 +1,3 @@
-# jean-ventures
-This is a repo for the jean ventures UI template
+# Jean Ventures
+Jean ventures are Specialist in Cleaning, Garbage Collection, Gardening, Fumigation, Landscaping
+Sewage services, Plumbing and general Supplies.
