@@ -16,3 +16,43 @@
     margin-top: 0;
   }
 }
+
+
+// Clients section
+.clients {
+  .client-item {
+    box-sizing: content-box;
+    padding: 30px 30px 0 30px;
+    margin: 30px 15px;
+    text-align: center;
+    min-height: 50px;
+    // box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+
+    h3 {
+      font-size: 18px;
+      font-weight: bold;
+      margin: 10px 0 5px 0;
+      color: #111;
+    }
+
+    h4 {
+      font-size: 14px;
+      color: #999;
+      margin: 0;
+    }
+
+    p {
+      font-style: italic;
+      margin: 0 auto 15px auto;
+      background: #f1f1f1;
+      width: 100%;
+      border: 1px solid #dcdcdc;
+      border-radius: 15px 15px 0 15px;
+      padding: 22px 15px;
+      font-size: 15px;
+      color: #686868;
+    }
+    
+  }
+}
+

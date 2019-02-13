@@ -1,0 +1,358 @@
+/* line 2, E:/jean-ventures/UI/scss/_other-global.scss */
+body {
+  overflow-x: hidden;
+  font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+/* line 7, E:/jean-ventures/UI/scss/_other-global.scss */
+p {
+  line-height: 1.75;
+}
+
+/* line 11, E:/jean-ventures/UI/scss/_other-global.scss */
+hr.shrink {
+  max-width: 250px;
+  border-width: 3px;
+  border-color: #3498DB;
+  margin-bottom: 30px;
+}
+
+/* line 18, E:/jean-ventures/UI/scss/_other-global.scss */
+a {
+  color: #3498DB;
+}
+
+/* line 20, E:/jean-ventures/UI/scss/_other-global.scss */
+a:hover {
+  color: #217dbb;
+}
+
+/* line 25, E:/jean-ventures/UI/scss/_other-global.scss */
+.text-primary {
+  color: #3498DB !important;
+}
+
+/* line 29, E:/jean-ventures/UI/scss/_other-global.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+/* line 39, E:/jean-ventures/UI/scss/_other-global.scss */
+section {
+  padding: 50px 0;
+}
+
+/* line 41, E:/jean-ventures/UI/scss/_other-global.scss */
+section h2.section-heading {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+/* line 46, E:/jean-ventures/UI/scss/_other-global.scss */
+section h3.section-subheading {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 30px;
+  text-transform: none;
+  font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+@media (min-width: 768px) {
+  /* line 56, E:/jean-ventures/UI/scss/_other-global.scss */
+  section {
+    padding: 80px 0;
+  }
+}
+
+/* line 62, E:/jean-ventures/UI/scss/_other-global.scss */
+.btn {
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  font-weight: 700;
+}
+
+/* line 67, E:/jean-ventures/UI/scss/_other-global.scss */
+.btn-xl {
+  font-size: 18px;
+  padding: 20px 40px;
+}
+
+/* line 72, E:/jean-ventures/UI/scss/_other-global.scss */
+.btn-primary {
+  background-color: #3498DB;
+  border-color: #3498DB;
+}
+
+/* line 75, E:/jean-ventures/UI/scss/_other-global.scss */
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  background-color: #2384c6 !important;
+  border-color: #2384c6 !important;
+  color: white;
+}
+
+/* line 82, E:/jean-ventures/UI/scss/_other-global.scss */
+.btn-primary:active, .btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
+}
+
+/* line 89, E:/jean-ventures/UI/scss/_other-global.scss */
+::-moz-selection {
+  background: #3498DB;
+  text-shadow: none;
+}
+
+/* line 94, E:/jean-ventures/UI/scss/_other-global.scss */
+::selection {
+  background: #3498DB;
+  text-shadow: none;
+}
+
+/* line 99, E:/jean-ventures/UI/scss/_other-global.scss */
+img::selection {
+  background: transparent;
+}
+
+/* line 103, E:/jean-ventures/UI/scss/_other-global.scss */
+img::-moz-selection {
+  background: transparent;
+}
+
+/* line 2, E:/jean-ventures/UI/scss/_nav.scss */
+#mainNav {
+  background-color: #3498DB;
+}
+
+/* line 4, E:/jean-ventures/UI/scss/_nav.scss */
+#mainNav .navbar-toggler {
+  font-size: 12px;
+  right: 0;
+  padding: 13px;
+  text-transform: uppercase;
+  color: white;
+  border: 0;
+  background-color: #212529;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+/* line 14, E:/jean-ventures/UI/scss/_nav.scss */
+#mainNav .navbar-brand {
+  color: black;
+  font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+/* line 17, E:/jean-ventures/UI/scss/_nav.scss */
+#mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+  color: white;
+}
+
+/* line 26, E:/jean-ventures/UI/scss/_nav.scss */
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-size: 90%;
+  font-weight: 400;
+  padding: 0.75em 0;
+  letter-spacing: 1px;
+  color: white;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+/* line 33, E:/jean-ventures/UI/scss/_nav.scss */
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #212529;
+}
+
+@media (min-width: 992px) {
+  /* line 42, E:/jean-ventures/UI/scss/_nav.scss */
+  #mainNav {
+    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    border: none;
+    background-color: #3498DB;
+  }
+  /* line 48, E:/jean-ventures/UI/scss/_nav.scss */
+  #mainNav .navbar-brand {
+    font-size: 1.35em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  /* line 56, E:/jean-ventures/UI/scss/_nav.scss */
+  #mainNav .navbar-nav .nav-item .nav-link {
+    padding: 1.1em 1em !important;
+  }
+  /* line 61, E:/jean-ventures/UI/scss/_nav.scss */
+  #mainNav.navbar-shrink {
+    background-color: #3498DB;
+  }
+  /* line 63, E:/jean-ventures/UI/scss/_nav.scss */
+  #mainNav.navbar-shrink .navbar-brand {
+    font-size: 1.35em;
+  }
+}
+
+/* line 3, E:/jean-ventures/UI/scss/_about-page.scss */
+header.intro-about {
+  text-align: center;
+  color: white;
+  max-height: 400px;
+  background-image: url("../img/header.jpeg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* line 12, E:/jean-ventures/UI/scss/_about-page.scss */
+header.intro-about .intro-text {
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+/* line 15, E:/jean-ventures/UI/scss/_about-page.scss */
+header.intro-about .intro-text .intro-lead-in {
+  font-size: 28px;
+  font-style: italic;
+  line-height: 50px;
+  margin-bottom: 25px;
+  font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+/* line 22, E:/jean-ventures/UI/scss/_about-page.scss */
+header.intro-about .intro-text .intro-heading {
+  font-size: 40px;
+  font-weight: 100;
+  line-height: 50px;
+  margin-bottom: 25px;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+/* line 29, E:/jean-ventures/UI/scss/_about-page.scss */
+header.intro-about .intro-text .feature {
+  color: #2C3E50;
+}
+
+@media (min-width: 768px) {
+  /* line 36, E:/jean-ventures/UI/scss/_about-page.scss */
+  header.intro-about .intro-text {
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
+  /* line 39, E:/jean-ventures/UI/scss/_about-page.scss */
+  header.intro-about .intro-text .intro-lead-in {
+    font-size: 30px;
+    font-style: italic;
+    line-height: 50px;
+    margin-bottom: 50px;
+    font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  }
+  /* line 46, E:/jean-ventures/UI/scss/_about-page.scss */
+  header.intro-about .intro-text .intro-heading {
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 75px;
+    margin-bottom: 50px;
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  }
+}
+
+/* line 1, E:/jean-ventures/UI/scss/_services-page.scss */
+.services-box {
+  margin-top: 50px;
+}
+
+/* line 5, E:/jean-ventures/UI/scss/_services-page.scss */
+#services-box {
+  padding: 60px 0 0 0;
+}
+
+/* line 7, E:/jean-ventures/UI/scss/_services-page.scss */
+#services-box .card {
+  padding: 8px;
+  margin-bottom: 40px;
+  background: #fff;
+  transition: 0.4s;
+  border: 1px solid #dedede;
+}
+
+/* line 13, E:/jean-ventures/UI/scss/_services-page.scss */
+#services-box .card:hover {
+  box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
+  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+}
+
+/* line 2, E:/jean-ventures/UI/scss/_contact-page.scss */
+#contactSection h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* line 7, E:/jean-ventures/UI/scss/_contact-page.scss */
+#contactSection form input, #contactSection form textarea {
+  padding: 15px 16px;
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 15px;
+}
+
+/* line 2, E:/jean-ventures/UI/scss/_other-footer.scss */
+footer {
+  background: #212529;
+  padding: 35px;
+  text-align: center;
+}
+
+/* line 6, E:/jean-ventures/UI/scss/_other-footer.scss */
+footer span.copyright {
+  color: white;
+  font-size: 90%;
+  line-height: 40px;
+  text-transform: none;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+/* line 13, E:/jean-ventures/UI/scss/_other-footer.scss */
+footer ul.quicklinks {
+  font-size: 90%;
+  line-height: 40px;
+  margin-bottom: 0;
+  text-transform: none;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+/* line 22, E:/jean-ventures/UI/scss/_other-footer.scss */
+ul.social-buttons {
+  margin-bottom: 0;
+}
+
+/* line 25, E:/jean-ventures/UI/scss/_other-footer.scss */
+ul.social-buttons li a {
+  font-size: 20px;
+  line-height: 50px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  color: #3498DB;
+  border-radius: 100%;
+  outline: none;
+  background-color: #dee2e6;
+}
+
+/* line 38, E:/jean-ventures/UI/scss/_other-footer.scss */
+ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
+  color: #fff;
+  background-color: #3498DB;
+}
+
+/*# sourceMappingURL=../css/main.map */

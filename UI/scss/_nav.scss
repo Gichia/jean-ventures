@@ -13,13 +13,12 @@
   }
   .navbar-brand {
     color: darken($gray-900, 20%);
-    padding: 10px;
     @include script-font;
     &.active,
     &:active,
     &:focus,
     &:hover {
-      color: darken($gray-900, 10%);
+      color: white;
     }
   }
   .navbar-nav {
@@ -41,15 +40,13 @@
 }
 @media(min-width:992px) {
   #mainNav {
-    padding-top: 18px;
-    padding-bottom: 18px;
     -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
     -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
     transition: padding-top 0.3s, padding-bottom 0.3s;
     border: none;
     background-color: $primary;
     .navbar-brand {
-      font-size: 2em;
+      font-size: 1.35em;
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
       transition: all 0.3s;
@@ -62,12 +59,9 @@
       }
     }
     &.navbar-shrink {
-      padding-top: 0;
-      padding-bottom: 0;
       background-color: $primary;
       .navbar-brand {
-        font-size: 1.25em;
-        padding: 12px 0;
+        font-size: 1.35em;
       }
     }
   }

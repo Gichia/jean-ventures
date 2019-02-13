@@ -1,0 +1,58 @@
+// Styling for the about page
+// Intro Section
+header.intro-about {
+    text-align: center;
+    color: white;
+    max-height: 400px;
+    background-image: url('../img/header.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    .intro-text {
+      padding-top: 150px;
+      padding-bottom: 100px;
+      .intro-lead-in {
+        font-size: 28px;
+        font-style: italic;
+        line-height: 50px;
+        margin-bottom: 25px;
+        @include serif-font;
+      }
+      .intro-heading {
+        font-size: 40px;
+        font-weight: 100;
+        line-height: 50px;
+        margin-bottom: 25px;
+        @include heading-font;
+      }
+      .feature {
+        color: $secondary;
+      }
+    }
+  }
+  @media(min-width:768px) {
+    header.intro-about {
+      .intro-text {
+        padding-top: 200px;
+        padding-bottom: 200px;
+        .intro-lead-in {
+          font-size: 30px;
+          font-style: italic;
+          line-height: 50px;
+          margin-bottom: 50px;
+          @include serif-font;
+        }
+        .intro-heading {
+          font-size: 70px;
+          font-weight: 700;
+          line-height: 75px;
+          margin-bottom: 50px;
+          @include heading-font;
+        }
+      }
+    }
+  }
+
+// Text Section
+
