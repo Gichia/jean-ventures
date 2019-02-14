@@ -18,3 +18,26 @@
     }
   }
 }
+
+.equipment-img {
+  height: 350px;
+  background-size: cover;
+  background-repeat: no-repeat;
+	background-position: center center; 
+  background-image: url('../img/header.jpeg');
+}
+
+.service-description {
+  .service-link {
+    li {
+      background: $gray-200;
+      &:hover {
+        background: $secondary;
+      }
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
+}
