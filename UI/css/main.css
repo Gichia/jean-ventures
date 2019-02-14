@@ -305,10 +305,11 @@ header.intro-about .intro-text .feature {
 
 /* line 34, E:/jean-ventures/UI/scss/_services-page.scss */
 .service-description .service-link li:hover {
+  color: white;
   background: #2C3E50;
 }
 
-/* line 39, E:/jean-ventures/UI/scss/_services-page.scss */
+/* line 40, E:/jean-ventures/UI/scss/_services-page.scss */
 .service-description .service-link a {
   text-decoration: none;
 }
