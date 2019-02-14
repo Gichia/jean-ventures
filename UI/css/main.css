@@ -289,6 +289,31 @@ header.intro-about .intro-text .feature {
   -moz-transform: translateY(-10px);
 }
 
+/* line 22, E:/jean-ventures/UI/scss/_services-page.scss */
+.equipment-img {
+  height: 350px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("../img/header.jpeg");
+}
+
+/* line 32, E:/jean-ventures/UI/scss/_services-page.scss */
+.service-description .service-link li {
+  background: #e9ecef;
+}
+
+/* line 34, E:/jean-ventures/UI/scss/_services-page.scss */
+.service-description .service-link li:hover {
+  color: white;
+  background: #2C3E50;
+}
+
+/* line 40, E:/jean-ventures/UI/scss/_services-page.scss */
+.service-description .service-link a {
+  text-decoration: none;
+}
+
 /* line 2, E:/jean-ventures/UI/scss/_contact-page.scss */
 #contactSection h3 {
   font-weight: bold;
