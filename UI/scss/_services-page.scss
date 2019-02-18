@@ -19,12 +19,68 @@
   }
 }
 
+.service-img {
+  height: 350px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.sanitary-img {
+  height: 350px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url('../img/services/sanitation.jpeg');
+}
+.garbage-img { 
+  height: 350px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url('../img/services/garbage.jpg');
+}
+.environment-img { 
+  height: 350px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url('../img/portfolio/environment.jpeg');
+}
+.office-img { 
+  height: 350px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url('../img/portfolio/cleaning-floor.jpeg');
+}
+.waste-img { 
+  height: 350px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url('../img/portfolio/environment.jpeg');
+}
 .equipment-img {
   height: 350px;
   background-size: cover;
   background-repeat: no-repeat;
-	background-position: center center; 
-  background-image: url('../img/header.jpeg');
+  background-position: center center;
+  background-image: url('../img/services/tool.jpeg');
+}
+.landscaping-img {
+  height: 350px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url('../img/services/hedge.jpg');
+}
+.fumigation-img { 
+  height: 350px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url('../img/portfolio/fumigation.jpeg');
 }
 
 .service-description {

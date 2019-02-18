@@ -72,54 +72,83 @@ section h3.section-subheading {
   }
 }
 
-/* line 62, E:/jean-ventures/UI/scss/_other-global.scss */
+/* line 61, E:/jean-ventures/UI/scss/_other-global.scss */
+.box {
+  padding: 40px;
+  min-height: 200px;
+  margin-bottom: 30px;
+  background: #fff;
+  transition: 0.4s;
+  text-align: center;
+  border: 1px solid #2C3E50;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* line 71, E:/jean-ventures/UI/scss/_other-global.scss */
+.box p {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+  text-transform: none;
+  font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+/* line 79, E:/jean-ventures/UI/scss/_other-global.scss */
+.box:hover {
+  box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
+  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+}
+
+/* line 88, E:/jean-ventures/UI/scss/_other-global.scss */
 .btn {
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   font-weight: 700;
 }
 
-/* line 67, E:/jean-ventures/UI/scss/_other-global.scss */
+/* line 93, E:/jean-ventures/UI/scss/_other-global.scss */
 .btn-xl {
   font-size: 18px;
   padding: 20px 40px;
 }
 
-/* line 72, E:/jean-ventures/UI/scss/_other-global.scss */
+/* line 98, E:/jean-ventures/UI/scss/_other-global.scss */
 .btn-primary {
   background-color: #3498DB;
   border-color: #3498DB;
 }
 
-/* line 75, E:/jean-ventures/UI/scss/_other-global.scss */
+/* line 101, E:/jean-ventures/UI/scss/_other-global.scss */
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
   background-color: #2384c6 !important;
   border-color: #2384c6 !important;
   color: white;
 }
 
-/* line 82, E:/jean-ventures/UI/scss/_other-global.scss */
+/* line 108, E:/jean-ventures/UI/scss/_other-global.scss */
 .btn-primary:active, .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(254, 209, 55, 0.5) !important;
 }
 
-/* line 89, E:/jean-ventures/UI/scss/_other-global.scss */
+/* line 115, E:/jean-ventures/UI/scss/_other-global.scss */
 ::-moz-selection {
   background: #3498DB;
   text-shadow: none;
 }
 
-/* line 94, E:/jean-ventures/UI/scss/_other-global.scss */
+/* line 120, E:/jean-ventures/UI/scss/_other-global.scss */
 ::selection {
   background: #3498DB;
   text-shadow: none;
 }
 
-/* line 99, E:/jean-ventures/UI/scss/_other-global.scss */
+/* line 125, E:/jean-ventures/UI/scss/_other-global.scss */
 img::selection {
   background: transparent;
 }
 
-/* line 103, E:/jean-ventures/UI/scss/_other-global.scss */
+/* line 129, E:/jean-ventures/UI/scss/_other-global.scss */
 img::-moz-selection {
   background: transparent;
 }
@@ -262,6 +291,88 @@ header.intro-about .intro-text .feature {
   }
 }
 
+/* line 58, E:/jean-ventures/UI/scss/_about-page.scss */
+.client-item {
+  box-sizing: content-box;
+  padding: 30px 30px 0 30px;
+  background: #dee2e6;
+  margin: 30px 15px;
+  text-align: center;
+  min-height: 80px;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* line 67, E:/jean-ventures/UI/scss/_about-page.scss */
+.client-item strong {
+  color: #F44336;
+}
+
+/* line 72, E:/jean-ventures/UI/scss/_about-page.scss */
+.team-member {
+  text-align: center;
+  margin-bottom: 20px;
+  border: 1px solid #000;
+}
+
+/* line 76, E:/jean-ventures/UI/scss/_about-page.scss */
+.team-member .pic {
+  overflow: hidden;
+  text-align: center;
+}
+
+/* line 79, E:/jean-ventures/UI/scss/_about-page.scss */
+.team-member .pic img {
+  max-width: 100%;
+  border-bottom: 5px solid #3498DB;
+  padding: 20px 20px 0;
+}
+
+/* line 85, E:/jean-ventures/UI/scss/_about-page.scss */
+.team-member .details {
+  background: #fff;
+  color: #838383;
+  padding: 15px 0;
+  border-radius: 0 0 3px 3px;
+}
+
+/* line 91, E:/jean-ventures/UI/scss/_about-page.scss */
+.team-member span {
+  font-style: italic;
+  display: block;
+  font-size: 13px;
+}
+
+/* line 96, E:/jean-ventures/UI/scss/_about-page.scss */
+.team-member .social {
+  margin-top: 5px;
+  padding: 6px;
+  text-align: center;
+}
+
+/* line 101, E:/jean-ventures/UI/scss/_about-page.scss */
+.team-member a {
+  color: #000000;
+  margin: 2px 6px;
+  border: 1px solid #000000;
+  width: 42px;
+  display: inline-block;
+  opacity: .5;
+}
+
+/* line 108, E:/jean-ventures/UI/scss/_about-page.scss */
+.team-member a:hover {
+  color: #3498DB;
+  margin: 2px 6px;
+  border: 1px solid #3498DB;
+  opacity: 1;
+}
+
+/* line 115, E:/jean-ventures/UI/scss/_about-page.scss */
+.team-member i {
+  font-size: 16px;
+  margin: 0 2px;
+}
+
 /* line 1, E:/jean-ventures/UI/scss/_services-page.scss */
 .services-box {
   margin-top: 50px;
@@ -290,26 +401,96 @@ header.intro-about .intro-text .feature {
 }
 
 /* line 22, E:/jean-ventures/UI/scss/_services-page.scss */
+.service-img {
+  height: 350px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* line 29, E:/jean-ventures/UI/scss/_services-page.scss */
+.sanitary-img {
+  height: 350px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("../img/services/sanitation.jpeg");
+}
+
+/* line 36, E:/jean-ventures/UI/scss/_services-page.scss */
+.garbage-img {
+  height: 350px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("../img/services/garbage.jpg");
+}
+
+/* line 43, E:/jean-ventures/UI/scss/_services-page.scss */
+.environment-img {
+  height: 350px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("../img/portfolio/environment.jpeg");
+}
+
+/* line 50, E:/jean-ventures/UI/scss/_services-page.scss */
+.office-img {
+  height: 350px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("../img/portfolio/cleaning-floor.jpeg");
+}
+
+/* line 57, E:/jean-ventures/UI/scss/_services-page.scss */
+.waste-img {
+  height: 350px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("../img/portfolio/environment.jpeg");
+}
+
+/* line 64, E:/jean-ventures/UI/scss/_services-page.scss */
 .equipment-img {
   height: 350px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url("../img/header.jpeg");
+  background-image: url("../img/services/tool.jpeg");
 }
 
-/* line 32, E:/jean-ventures/UI/scss/_services-page.scss */
+/* line 71, E:/jean-ventures/UI/scss/_services-page.scss */
+.landscaping-img {
+  height: 350px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("../img/services/hedge.jpg");
+}
+
+/* line 78, E:/jean-ventures/UI/scss/_services-page.scss */
+.fumigation-img {
+  height: 350px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("../img/portfolio/fumigation.jpeg");
+}
+
+/* line 88, E:/jean-ventures/UI/scss/_services-page.scss */
 .service-description .service-link li {
   background: #e9ecef;
 }
 
-/* line 34, E:/jean-ventures/UI/scss/_services-page.scss */
+/* line 90, E:/jean-ventures/UI/scss/_services-page.scss */
 .service-description .service-link li:hover {
-  color: white;
   background: #2C3E50;
 }
 
-/* line 40, E:/jean-ventures/UI/scss/_services-page.scss */
+/* line 95, E:/jean-ventures/UI/scss/_services-page.scss */
 .service-description .service-link a {
   text-decoration: none;
 }
