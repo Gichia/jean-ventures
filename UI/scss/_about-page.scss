@@ -54,5 +54,66 @@ header.intro-about {
     }
   }
 
-// Text Section
+// Sections
+.client-item {
+  box-sizing: content-box;
+  padding: 30px 30px 0 30px;
+  background: $gray-300;
+  margin: 30px 15px;
+  text-align: center;
+  min-height: 80px;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
 
+  strong {
+    color: #F44336;
+  }
+}
+
+.team-member {
+  text-align: center;
+  margin-bottom: 20px;
+  border: 1px solid $black;
+  .pic {
+    overflow: hidden;
+    text-align: center;
+    img {
+      max-width: 100%;
+      border-bottom: 5px solid $primary;
+      padding: 20px 20px 0;
+    }
+  }
+  .details {
+    background: #fff;
+    color: #838383;
+    padding: 15px 0;
+    border-radius: 0 0 3px 3px;
+  }
+  span {
+    font-style: italic;
+    display: block;
+    font-size: 13px;
+  }
+  .social {
+    margin-top: 5px;
+    padding: 6px;
+    text-align: center;
+  }
+  a {
+    color: #000000;
+    margin: 2px 6px;
+    border: 1px solid #000000;
+    width: 42px;
+    display: inline-block;
+    opacity: .5;
+    &:hover{
+      color: $primary;
+      margin: 2px 6px;
+      border: 1px solid $primary;
+      opacity: 1;
+    }
+  }
+  i {
+    font-size: 16px;
+    margin: 0 2px;
+  }
+}
