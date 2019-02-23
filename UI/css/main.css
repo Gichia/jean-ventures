@@ -163,7 +163,7 @@ img::-moz-selection {
   height: 50px;
   text-align: center;
   color: white;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(52, 152, 219, 0.5);
   line-height: 45px;
 }
 
@@ -174,7 +174,7 @@ img::-moz-selection {
 
 /* line 154, E:/jean-ventures/UI/scss/_other-global.scss */
 .scroll-to-top:hover {
-  background: #000;
+  background: #3498DB;
 }
 
 /* line 157, E:/jean-ventures/UI/scss/_other-global.scss */
