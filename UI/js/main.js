@@ -1,5 +1,5 @@
-(function($) {
-    "use strict"; // Start of use strict
+$(function() {
+     // Start of use strict
   
     // Smooth scrolling using jQuery easing
     $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
@@ -40,6 +40,16 @@
     $('.portfolio-modal').on('hidden.bs.modal', function(e) {
       $('.navbar').removeClass('d-none');
     })
+
+    // Scroll to top button appear
+    $(document).scroll(function() {
+      var scrollDistance = $(this).scrollTop();
+      if (scrollDistance > 100) {
+        $('.scroll-to-top').fadeIn();
+      } else {
+        $('.scroll-to-top').fadeOut();
+      }
+    });
   
-  })(jQuery); // End of use strict
+  }); // End of use strict
   

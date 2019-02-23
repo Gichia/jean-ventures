@@ -96,3 +96,32 @@ img::selection {
 img::-moz-selection {
   background: transparent;
 }
+
+  // Scroll to top button
+  .scroll-to-top {
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+  
+    display: none;
+  
+    width: 50px;
+    height: 50px;
+  
+    text-align: center;
+  
+    color: white;
+    background: fade-out($primary, .5);
+  
+    line-height: 45px;
+    &:focus,
+    &:hover {
+      color: white;
+    }
+    &:hover {
+      background: $primary;
+    }
+    i {
+      font-weight: 800;
+    }
+  }
