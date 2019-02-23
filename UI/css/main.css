@@ -230,8 +230,8 @@ img::-moz-selection {
 header.intro-about {
   text-align: center;
   color: white;
-  max-height: 400px;
-  background-image: url("../img/undefined.jpg");
+  max-height: 500px;
+  background-image: url("../img/team/IMG-20190210-WA0003.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -477,7 +477,7 @@ header.intro-about .intro-text .feature {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  background-image: url("../img/services/hedge.jpg");
+  background-image: url("../img/services/landscaping.jpg");
 }
 
 /* line 85, E:/jean-ventures/UI/scss/_services-page.scss */
