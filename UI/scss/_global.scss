@@ -125,3 +125,44 @@ img::-moz-selection {
       font-weight: 800;
     }
   }
+
+  #clients {
+    padding: 60px 0;
+  }
+  
+  #clients .client-item {
+    // box-sizing: content-box;
+    padding: 30px 30px 0 30px;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  
+  #clients .client-item p {
+    font-style: italic;
+    margin: 0 auto 15px auto;
+    background: #f1f1f1;
+    width: 100%;
+    border: 1px solid #dcdcdc;
+    border-radius: 15px 15px 0 15px;
+    padding: 22px 15px;
+    font-size: 15px;
+    color: #686868;
+  }
+  
+  #clients .owl-nav, #clients .owl-dots {
+    text-align: center;
+  }
+  
+  #clients .owl-dot {
+    display: inline-block;
+    margin: 0 6px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: $secondary;
+  }
+  
+  #clients .owl-dot.active {
+    background-color: $primary;
+  }

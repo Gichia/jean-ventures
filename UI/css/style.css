@@ -145,6 +145,51 @@ img::-moz-selection {
   font-weight: 800;
 }
 
+/* line 129, E:/jean-ventures/UI/scss/_global.scss */
+#clients {
+  padding: 60px 0;
+}
+
+/* line 133, E:/jean-ventures/UI/scss/_global.scss */
+#clients .client-item {
+  padding: 30px 30px 0 30px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+/* line 141, E:/jean-ventures/UI/scss/_global.scss */
+#clients .client-item p {
+  font-style: italic;
+  margin: 0 auto 15px auto;
+  background: #f1f1f1;
+  width: 100%;
+  border: 1px solid #dcdcdc;
+  border-radius: 15px 15px 0 15px;
+  padding: 22px 15px;
+  font-size: 15px;
+  color: #686868;
+}
+
+/* line 153, E:/jean-ventures/UI/scss/_global.scss */
+#clients .owl-nav, #clients .owl-dots {
+  text-align: center;
+}
+
+/* line 157, E:/jean-ventures/UI/scss/_global.scss */
+#clients .owl-dot {
+  display: inline-block;
+  margin: 0 6px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: #2C3E50;
+}
+
+/* line 166, E:/jean-ventures/UI/scss/_global.scss */
+#clients .owl-dot.active {
+  background-color: #3498DB;
+}
+
 /* line 2, E:/jean-ventures/UI/scss/_navbar.scss */
 #mainNav {
   background-color: #3498DB;
